@@ -6,11 +6,11 @@ The dataset for this particular project comes from https://d396qusza40orc.cloudf
 # run_analysis.r script
 The R script run_analysis performs the following.
 1. Downloads and unzips the required files.
-2a. Reads the training data
-2b. Reads the test data
-2c. Reads the features
-2d. Reads the activity labels
-2e. Assigns the appropriate variable names
+2.a. Reads the training data
+2.b. Reads the test data
+2.c. Reads the features
+2.d. Reads the activity labels
+2.e. Assigns the appropriate variable names
 3. Merges the datasets to create activitydata
 4. Creates a vector with the mean and standard deviation of each measurement and uses this vector to subset the data to create subsetactivitydata
 5. Uses descriptive activity names to name the activities in the dataset
